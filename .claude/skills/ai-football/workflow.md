@@ -49,9 +49,16 @@ nflfastR Parquet ──→ [Step 1: Data Setup] ──→ franchise.db (SQLite)
 
 ## Pre-Step Reads
 
+**Before starting any step**, read the existing domain pack's design documents for architectural context:
+- `GAME-DESIGN.md` — Core loop definition, victory conditions, system boundaries
+- `FRAMEWORK.md` — Architecture decisions, component interfaces, data flow rationale
+- `game-loop.md` — 10-step per-play cycle specification
+
+These live in the existing domain pack at `D:\my_ai_projects\project_test_repos\ai-football-domain-pack` (or wherever the pack is cloned). They encode the "why" behind the spec's architecture.
+
 | Step | Must Read First |
 |------|----------------|
-| 1 | `SKILL.md` (vocabulary), existing pack `data/setup.md` |
+| 1 | `SKILL.md` (vocabulary), existing pack `data/setup.md`, existing pack `GAME-DESIGN.md` |
 | 2 | `steps/step-02.md`, existing pack `components/game-state/description.md` |
 | 3 | `steps/step-03.md`, existing pack `components/playbook/description.md` |
 | 4 | `steps/step-04.md`, existing pack `components/play-resolution/description.md` |
