@@ -1,0 +1,24 @@
+{
+  "play_result": {
+    "play_name": "Slant Route",
+    "yards_gained": 12,
+    "result_type": "complete_pass",
+    "first_down": true,
+    "description": "Complete pass"
+  },
+  "game_context": {
+    "down": 2,
+    "distance": 7,
+    "yard_line": 35,
+    "quarter": 2,
+    "clock": "08:32",
+    "possession": "home"
+  },
+  "narration": "Second and seven from the 35. Williams takes the snap from shotgun, fires a quick slant to the slot receiver — caught! He breaks a tackle at the 40 and picks up 12 yards for a first down! The Eagles are now at the Dallas 23-yard line, moving into scoring territory.",
+  "updated_state": {
+    "down": 1,
+    "distance": 10,
+    "yard_line": 23,
+    "clock": "08:05"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "pbp_table": "play_by_play",
+  "database": "franchise.db",
+  "seasons": [2000, 2024],
+  "key_columns": [
+    "play_type", "yards_gained", "down", "ydstogo", "yardline_100",
+    "posteam", "defteam", "shotgun", "no_huddle", "qb_scramble",
+    "pass_length", "pass_location", "run_location", "run_gap",
+    "epa", "wpa", "wp", "score_differential"
+  ],
+  "indexes": [
+    {"name": "idx_play_type", "columns": ["play_type"]},
+    {"name": "idx_down_distance", "columns": ["down", "ydstogo"]},
+    {"name": "idx_situation", "columns": ["down", "ydstogo", "yardline_100", "play_type"]}
+  ]
+}

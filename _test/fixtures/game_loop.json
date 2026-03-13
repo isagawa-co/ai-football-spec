@@ -1,0 +1,36 @@
+{
+  "game_state": {
+    "quarter": 1,
+    "clock": "15:00",
+    "down": 1,
+    "distance": 10,
+    "yard_line": 25,
+    "possession": "home",
+    "score": {"home": 0, "away": 0},
+    "timeouts": {"home": 3, "away": 3},
+    "drive_plays": 0,
+    "drive_yards": 0,
+    "play_clock": 40,
+    "two_minute_warning": false
+  },
+  "initialized": true,
+  "components_loaded": [
+    "game_state",
+    "playbook",
+    "resolution",
+    "coordinators",
+    "narration"
+  ],
+  "loop_steps": [
+    "show_situation",
+    "oc_recommend",
+    "player_call",
+    "gate_check",
+    "resolve_play",
+    "narrate_result",
+    "update_state",
+    "dc_react",
+    "check_transitions",
+    "loop_or_end"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "game_state": {
+    "quarter": 1,
+    "clock": "15:00",
+    "down": 1,
+    "distance": 10,
+    "yard_line": 25,
+    "possession": "home",
+    "score": {"home": 0, "away": 0},
+    "timeouts": {"home": 3, "away": 3},
+    "drive_plays": 0,
+    "drive_yards": 0,
+    "play_clock": 40,
+    "two_minute_warning": false
+  },
+  "home_team": {
+    "name": "Eagles",
+    "abbreviation": "PHI",
+    "scheme": "spread"
+  },
+  "away_team": {
+    "name": "Cowboys",
+    "abbreviation": "DAL",
+    "scheme": "power_run"
+  }
+}

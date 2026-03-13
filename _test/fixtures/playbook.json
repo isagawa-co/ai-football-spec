@@ -1,0 +1,38 @@
+{
+  "plays": [
+    {"id": "OFF-01", "name": "HB Dive", "play_type": "run", "formation": "I-Form", "personnel": "21", "personnel_count": 11, "description": "Handoff to halfback up the middle"},
+    {"id": "OFF-02", "name": "HB Toss", "play_type": "run", "formation": "Singleback", "personnel": "11", "personnel_count": 11, "description": "Toss sweep to the outside"},
+    {"id": "OFF-03", "name": "Power Run", "play_type": "run", "formation": "I-Form", "personnel": "22", "personnel_count": 11, "description": "Lead blocker power run"},
+    {"id": "OFF-04", "name": "Inside Zone", "play_type": "run", "formation": "Shotgun", "personnel": "11", "personnel_count": 11, "description": "Zone blocking inside run"},
+    {"id": "OFF-05", "name": "Outside Zone", "play_type": "run", "formation": "Shotgun", "personnel": "11", "personnel_count": 11, "description": "Stretch zone run to the outside"},
+    {"id": "OFF-06", "name": "Slant Route", "play_type": "pass", "formation": "Shotgun", "personnel": "11", "personnel_count": 11, "description": "Quick slant to slot receiver"},
+    {"id": "OFF-07", "name": "Curl Route", "play_type": "pass", "formation": "Shotgun", "personnel": "11", "personnel_count": 11, "description": "Curl route at 10 yards"},
+    {"id": "OFF-08", "name": "Out Route", "play_type": "pass", "formation": "Singleback", "personnel": "12", "personnel_count": 11, "description": "Out route to sideline"},
+    {"id": "OFF-09", "name": "Deep Post", "play_type": "pass", "formation": "Shotgun", "personnel": "11", "personnel_count": 11, "description": "Deep post route downfield"},
+    {"id": "OFF-10", "name": "Play Action", "play_type": "pass", "formation": "I-Form", "personnel": "21", "personnel_count": 11, "description": "Play action fake, pass downfield"},
+    {"id": "OFF-11", "name": "Screen Pass", "play_type": "pass", "formation": "Shotgun", "personnel": "11", "personnel_count": 11, "description": "Screen to running back"},
+    {"id": "OFF-12", "name": "Hitch Route", "play_type": "pass", "formation": "Shotgun", "personnel": "11", "personnel_count": 11, "description": "Quick hitch to outside receiver"},
+    {"id": "OFF-13", "name": "Mesh Concept", "play_type": "pass", "formation": "Shotgun", "personnel": "11", "personnel_count": 11, "description": "Crossing routes underneath"},
+    {"id": "OFF-14", "name": "Four Verticals", "play_type": "pass", "formation": "Shotgun", "personnel": "10", "personnel_count": 11, "description": "Four receivers go deep"},
+    {"id": "OFF-15", "name": "Counter Run", "play_type": "run", "formation": "I-Form", "personnel": "21", "personnel_count": 11, "description": "Misdirection counter run"},
+    {"id": "OFF-16", "name": "QB Sneak", "play_type": "run", "formation": "Under Center", "personnel": "12", "personnel_count": 11, "description": "QB sneak for short yardage"},
+    {"id": "OFF-17", "name": "TE Seam", "play_type": "pass", "formation": "Singleback", "personnel": "12", "personnel_count": 11, "description": "Tight end seam route"},
+    {"id": "OFF-18", "name": "Bootleg", "play_type": "pass", "formation": "I-Form", "personnel": "21", "personnel_count": 11, "description": "QB rollout bootleg pass"},
+    {"id": "OFF-19", "name": "Draw Play", "play_type": "run", "formation": "Shotgun", "personnel": "11", "personnel_count": 11, "description": "Delayed handoff draw play"},
+    {"id": "OFF-20", "name": "Fade Route", "play_type": "pass", "formation": "Shotgun", "personnel": "11", "personnel_count": 11, "description": "Fade route to corner of end zone"}
+  ],
+  "formations": [
+    {"name": "I-Form", "on_line": 7, "backs": 2, "receivers": 2},
+    {"name": "Singleback", "on_line": 7, "backs": 1, "receivers": 3},
+    {"name": "Shotgun", "on_line": 7, "backs": 1, "receivers": 3},
+    {"name": "Under Center", "on_line": 7, "backs": 1, "receivers": 3},
+    {"name": "Empty", "on_line": 7, "backs": 0, "receivers": 5}
+  ],
+  "defensive_coverages": [
+    {"id": "DEF-01", "name": "Cover 1 Man", "type": "man", "description": "Single high safety, man coverage"},
+    {"id": "DEF-02", "name": "Cover 2 Zone", "type": "zone", "description": "Two deep safeties, zone underneath"},
+    {"id": "DEF-03", "name": "Cover 3 Zone", "type": "zone", "description": "Three deep defenders, four underneath"},
+    {"id": "DEF-04", "name": "Cover 4 Zone", "type": "zone", "description": "Quarters coverage, four deep"},
+    {"id": "DEF-05", "name": "Blitz", "type": "pressure", "description": "Extra rushers, man coverage behind"}
+  ]
+}

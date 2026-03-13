@@ -1,0 +1,40 @@
+{
+  "domain": "ai-football",
+  "timestamp": "2026-03-13T10:05:00Z",
+  "total_gates": 24,
+  "passed": 24,
+  "failed": 0,
+  "skipped": 0,
+  "attempt": 1,
+  "anti_tests": {
+    "total": 8,
+    "correctly_rejected": 8,
+    "wrongly_passed": 0
+  },
+  "gates": [
+    {"id": "DATA-01", "check": "Database config exists", "method": "file_exists", "result": "PASS"},
+    {"id": "STATE-01", "check": "State file exists", "method": "file_exists", "result": "PASS"},
+    {"id": "PLAY-01", "check": "Playbook file exists", "method": "file_exists", "result": "PASS"},
+    {"id": "RES-01", "check": "Resolution engine exists", "method": "file_exists", "result": "PASS"},
+    {"id": "COORD-01", "check": "Coordinator module exists", "method": "file_exists", "result": "PASS"},
+    {"id": "NAR-01", "check": "Narration module exists", "method": "file_exists", "result": "PASS"},
+    {"id": "LOOP-01", "check": "Game entry point exists", "method": "file_exists", "result": "PASS"},
+    {"id": "DATA-02", "check": "Play-by-play table configured", "method": "grep", "result": "PASS"},
+    {"id": "STATE-02", "check": "State has quarter field", "method": "grep", "result": "PASS"},
+    {"id": "PLAY-02", "check": "Playbook has play_type", "method": "grep", "result": "PASS"},
+    {"id": "RES-02", "check": "Resolution has query results", "method": "grep", "result": "PASS"},
+    {"id": "COORD-02", "check": "OC persona defined", "method": "grep", "result": "PASS"},
+    {"id": "NAR-02", "check": "Narration function present", "method": "grep", "result": "PASS"},
+    {"id": "LOOP-02", "check": "All components imported", "method": "grep", "result": "PASS"},
+    {"id": "DATA-03", "check": "Indexes created", "method": "run_code", "result": "PASS"},
+    {"id": "STATE-03", "check": "Valid state transitions", "method": "run_code", "result": "PASS"},
+    {"id": "PLAY-03", "check": "Personnel counts valid", "method": "run_code", "result": "PASS"},
+    {"id": "PLAY-04", "check": "Formations legal", "method": "run_code", "result": "PASS"},
+    {"id": "RES-03", "check": "Broadening fallback works", "method": "run_code", "result": "PASS"},
+    {"id": "RES-04", "check": "Outcome includes yards", "method": "run_code", "result": "PASS"},
+    {"id": "COORD-03", "check": "Play recommendations generated", "method": "run_code", "result": "PASS"},
+    {"id": "NAR-03", "check": "Result narration works", "method": "run_code", "result": "PASS"},
+    {"id": "LOOP-03", "check": "Game loop executable", "method": "run_code", "result": "PASS"},
+    {"id": "STRUCT-01", "check": "Structural integrity", "method": "manual", "result": "PASS"}
+  ]
+}

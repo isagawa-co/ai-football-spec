@@ -1,0 +1,21 @@
+{
+  "query": {
+    "play_type": "pass",
+    "down": 1,
+    "ydstogo": 10,
+    "formation": "shotgun"
+  },
+  "sample_size": 847,
+  "result": {
+    "yards_gained": 8,
+    "play_type": "pass",
+    "pass_length": "short",
+    "pass_location": "middle",
+    "complete_pass": 1,
+    "epa": 0.42,
+    "wpa": 0.02,
+    "description": "Short pass middle complete for 8 yards"
+  },
+  "broadening_level": 0,
+  "broadening_log": []
+}

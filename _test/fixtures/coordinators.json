@@ -1,0 +1,38 @@
+{
+  "situation": {
+    "down": 2,
+    "distance": 7,
+    "yard_line": 35,
+    "quarter": 2,
+    "clock": "08:32",
+    "score_differential": -3
+  },
+  "recommendations": [
+    {
+      "play": "Inside Zone",
+      "reasoning": "2nd and 7 is a manageable distance. Inside zone keeps the defense honest and sets up play action on 3rd down if we pick up 3-4 yards.",
+      "confidence": 0.7
+    },
+    {
+      "play": "Slant Route",
+      "reasoning": "Quick slant gets us the first down if the slot beats the nickel. Low risk, high reward on 2nd and 7.",
+      "confidence": 0.8
+    },
+    {
+      "play": "Play Action",
+      "reasoning": "We've been running well this drive. Play action could catch the linebackers cheating up. Risk is the longer development time.",
+      "confidence": 0.6
+    }
+  ],
+  "oc_persona": {
+    "name": "Coach Williams",
+    "scheme": "west_coast",
+    "tendency": "balanced",
+    "personality": "analytical"
+  },
+  "dc_intel": {
+    "coverage_tendency": "Cover 2 Zone on 2nd and medium",
+    "blitz_likelihood": "low",
+    "adjustment": "Watch for safety cheating down — deep post could be open"
+  }
+}

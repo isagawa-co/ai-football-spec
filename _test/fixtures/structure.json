@@ -1,0 +1,28 @@
+{
+  "skill_files": [
+    ".claude/skills/ai-football/SKILL.md",
+    ".claude/skills/ai-football/workflow.md",
+    ".claude/skills/ai-football/gate-contract.md",
+    ".claude/skills/ai-football/steps/step-01.md",
+    ".claude/skills/ai-football/steps/step-02.md",
+    ".claude/skills/ai-football/steps/step-03.md",
+    ".claude/skills/ai-football/steps/step-04.md",
+    ".claude/skills/ai-football/steps/step-05.md",
+    ".claude/skills/ai-football/steps/step-06.md",
+    ".claude/skills/ai-football/steps/step-07.md",
+    ".claude/skills/ai-football/steps/step-08.md",
+    ".claude/skills/ai-football/steps/on-failure.md",
+    ".claude/skills/ai-football/steps/pre-build.md"
+  ],
+  "command_files": [
+    ".claude/commands/football-build.md",
+    ".claude/commands/football-play.md",
+    ".claude/commands/football-data.md"
+  ],
+  "lesson_files": [
+    ".claude/lessons/lessons.md",
+    ".claude/lessons/football/nflfastr-queries.md",
+    ".claude/lessons/football/persona-drift.md",
+    ".claude/lessons/football/state-bugs.md"
+  ]
+}
